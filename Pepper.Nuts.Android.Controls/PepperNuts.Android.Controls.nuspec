@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+   	<id>PepperNuts.Android.Controls</id>
+    <version>1.0.0</version>
+    <authors>Pepper-Nuts</authors>
+    <owners>Pepper-Nuts</owners>
+    <licenseUrl>https://github.com/tehZeno/Pepper.Nuts.Controls/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/tehZeno/Pepper.Nuts.Controls</projectUrl>
+    
+    <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+   	<description>Simple android controls </description>
+    <releaseNotes>Initial update. Added TimeOnlyEditText</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>MvvmCross Android</tags>
+  </metadata>
+  <files>
+    <file src="bin/Release/PepperNuts.Android.Controls.dll" target="lib\MonoAndroid403"/>
+  </files>
+</package>
