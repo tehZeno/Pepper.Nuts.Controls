@@ -2,7 +2,7 @@
 <package >
   <metadata>
    	<id>PepperNuts.Android.Controls</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Pepper-Nuts</authors>
     <owners>Pepper-Nuts</owners>
     <licenseUrl>https://github.com/tehZeno/Pepper.Nuts.Controls/blob/master/LICENSE</licenseUrl>
@@ -11,7 +11,7 @@
     <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
    	<description>Simple android controls </description>
-    <releaseNotes>Initial update. Added TimeOnlyEditText</releaseNotes>
+    <releaseNotes>Make sure we can set times to a max of 23:59 instead of 24:XX.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>MvvmCross Android</tags>
   </metadata>

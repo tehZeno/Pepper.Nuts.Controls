@@ -34,10 +34,10 @@ namespace PepperNuts.Android.Controls {
 					// h[h]:mm
 					c = result[1];
 					if (result[0] == '2') {
-						// 20-24 is allowed
-						allowChange &= (c >= '0' && c <= '4' && !(char.IsLetter(c)));
+						// 20-23 is allowed
+						allowChange &= (c >= '0' && c <= '3' && !(char.IsLetter(c)));
 					} else {
-						// 01-19 is allowed
+						// 00-19 is allowed
 						allowChange &= (c >= '0' && c <= '9' && !(char.IsLetter(c)));
 					}
 				}
@@ -58,7 +58,7 @@ namespace PepperNuts.Android.Controls {
 				}
 				return allowChange ? ALLOW_EDIT : DO_NOT_ALLOW_EDIT;
 
-			} catch(Exception ge) {
+			} catch(Exception) {
 				return ALLOW_EDIT; // we can't filter, we will just allow it.
 			}
 		}
